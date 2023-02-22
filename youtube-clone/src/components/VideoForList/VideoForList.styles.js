@@ -4,6 +4,7 @@ width:100%;
 display:flex;
 height:100px;
 margin:10px;
+position:relative;
 /* background: black; */
 `;
 export const ImgContainer=styled.div`
