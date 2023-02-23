@@ -4,7 +4,8 @@ export const Wrapper = styled.div`
     position: fixed;
     top: 50px;
     left: 0;
-    width:240px;
+    max-width:240px;
+    width:15vw;
     height: 100%;
     overflow-y: scroll;
     padding-bottom: 2.5rem;
