@@ -1,7 +1,10 @@
 import {VideoContent,Thumbnai,TimeLine,DescContainer,VideoTitle,VideoInfo,ViewsAndDuration} from './VideoWrapper.styles';
-const Video = ({img,avatar,word,name}) => {
+import { VideoName } from '../../App';
+import { useContext } from 'react';
+const Video = ({img,avatar,word,name,video,category}) => {
+    const { globalState, setGlobalState }=useContext(VideoName);
   return (
-    <VideoContent>
+    <VideoContent onClick={()=>{setGlobalState(video)}}>
             <Thumbnai>
                 <img src={img} alt='sorry'/>
                 <TimeLine><span>{`${Math.floor((Math.random()*60))}:${Math.floor((Math.random()*60))}`}</span></TimeLine>

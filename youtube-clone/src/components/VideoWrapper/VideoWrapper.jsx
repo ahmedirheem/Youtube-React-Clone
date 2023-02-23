@@ -2,11 +2,12 @@ import React from 'react'
 import styled from 'styled-components';
 import Video from '../Video/Video';
 import { faker } from '@faker-js/faker';
+import {Link} from 'react-router-dom';
+import { VideoBasicData } from '../../data/VideosData';
 const VideoWrapper = () => {
-    const arr=[1,2,3,4,5,6,7,8,9,10,11,12];
   return (
     <Wrapper>
-       { arr.map((el,index)=>(<Video key={index} img={faker.image.business()} avatar={faker.image.avatar()} word={faker.word.adjective(5)} name={faker.name.fullName()}/>))}
+       {VideoBasicData.map((el,index)=>(<Link  style={{textDecoration:'none'}}key={index} to='/video'><Video img={faker.image.business()} avatar={faker.image.avatar()} word={el.title} name={faker.name.fullName()} video={el.video} category={el.category}/></Link>))}
     </Wrapper>
   )
 }

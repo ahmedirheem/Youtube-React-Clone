@@ -9,6 +9,8 @@ padding-top:15px;
 export const VideoContent=styled.div`
 min-height:329px;
 height:auto;
+color:#0f0f0f;
+text-decoration: none;
 /* background-color:black; */
 width:20vw;
 margin:10px;
