@@ -5,6 +5,7 @@ export const VideosData = [
         video: '',
         videoLength: '',
         views: '',
+        videoCategory: '',
         postingdate: '',
         likes: '',
         disLikes: '',
