@@ -6,15 +6,15 @@ import styled from 'styled-components';
 const VideoPage = () => {
   return (
     <div>
-    <Header/>
-    <Wrapper>
-    <VideoChannelComment/>
-    <VideoList/>
-    </Wrapper>
+      <Header />
+      <Wrapper>
+        <VideoChannelComment />
+        <VideoList />
+      </Wrapper>
     </div>
   )
 }
-const Wrapper=styled.div`
+const Wrapper = styled.div`
 width:100%;
 height:200vh;
 display:flex;

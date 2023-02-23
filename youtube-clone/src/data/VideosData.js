@@ -56,6 +56,5 @@ export const VideoBasicData=[
         title:'Hiking',
         video:'https://www.youtube.com/watch?v=oGvb0moNKoc',
         category:'sport',
-        
     }
 ]
