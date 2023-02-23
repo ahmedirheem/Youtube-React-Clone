@@ -4,10 +4,17 @@ export const Wrapper = styled.div`
     position: fixed;
     top: 50px;
     left: 0;
-    width: 20%;
+    width:240px;
     height: 100%;
     overflow-y: scroll;
     padding-bottom: 2.5rem;
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius:20px;
+    }
 `
 
 export const ListTitle = styled.p`
