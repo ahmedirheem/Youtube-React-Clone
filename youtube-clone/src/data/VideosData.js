@@ -56,5 +56,42 @@ export const VideoBasicData=[
         title:'Hiking',
         video:'https://www.youtube.com/watch?v=oGvb0moNKoc',
         category:'sport',
-    }
+    },
+    {
+        title:'Food Eating',
+        video:'https://www.youtube.com/watch?v=LWSCfn8UXSk',
+        category:'food',
+        
+    },
+    {
+        title:'Marc Murphys Braised Chicken with Tomatoes, Potatoes,',
+        video:'https://www.youtube.com/watch?v=S2FlzGvGIjY',
+        category:'food',
+        
+    },
+    {
+        title:'Duff Goldmans Pretzel-Crusted Butterscotch',
+        video:'https://www.youtube.com/watch?v=UmuFYFRBmTQ',
+        category:'food',
+        
+    },
+    {
+        title:'Guy Fieri Eats BBQ Smoked Alligator Ribs ',
+        video:'https://www.youtube.com/watch?v=UmuFYFRBmTQ',
+        category:'food',
+        
+    },
+    {
+        title:'How to Make Darnell Ferguson s',
+        video:'https://www.youtube.com/watch?v=pP-EyGjBlII',
+        category:'food',
+        
+    },
+    {
+        title:'Food Eating',
+        video:'https://www.youtube.com/watch?v=NsZw1XCVEWs',
+        category:'food',
+        
+    },
+
 ]

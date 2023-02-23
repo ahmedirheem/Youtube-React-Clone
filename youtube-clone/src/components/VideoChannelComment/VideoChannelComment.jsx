@@ -1,10 +1,13 @@
 import React from 'react'
 import styled from 'styled-components';
 import ReactPlayer from 'react-player/youtube'
+import { useContext } from 'react';
+import { VideoName } from '../../App';
 const VideoChannelComment = () => {
+  const { globalState, setGlobalState }=useContext(VideoName);
   return (
     <Wrapper>
-        <ReactPlayer url='https://www.youtube.com/watch?v=7gAtm6EOOWk' width='100%' height='40rem'/>
+        <ReactPlayer url={globalState} width='100%' height='40rem'/>
     </Wrapper>
   )
 }
