@@ -4,7 +4,7 @@ import VideoPage from './pages/VideoPage/VideoPage';
 function App() {
   return (
     <div className="App">
-      <VideoPage/>
+      <Home/>
     </div>
   );
 }
