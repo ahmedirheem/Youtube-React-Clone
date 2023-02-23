@@ -7,7 +7,7 @@ import { VideoBasicData } from '../../data/VideosData';
 const VideoWrapper = () => {
   return (
     <Wrapper>
-       {VideoBasicData.map((el,index)=>(<Link key={index} to='/video'><Video img={faker.image.business()} avatar={faker.image.avatar()} word={el.title} name={faker.name.fullName()} video={el.video} category={el.category}/></Link>))}
+       {VideoBasicData.map((el,index)=>(<Link  style={{textDecoration:'none'}}key={index} to='/video'><Video img={faker.image.business()} avatar={faker.image.avatar()} word={el.title} name={faker.name.fullName()} video={el.video} category={el.category}/></Link>))}
     </Wrapper>
   )
 }
