@@ -16,8 +16,9 @@ const Wrapper=styled.div`
 width:87vw;
 height:100vh;
 /* background-color: red; */
-margin-left:13vw;
+margin-left:16vw;
 padding-top:15px;
+/* padding-left:5vw; */
 display:flex;
 flex-wrap: wrap;
 `;
