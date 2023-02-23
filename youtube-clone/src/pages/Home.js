@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import Header from '../components/Header/Header'
+import Header from '../components/Header'
 import Sidebar from '../components/Sidebar/Sidebar'
+import VideoWrapper from '../components/VideoWrapper/VideoWrapper'
 
 const Home = () => {
     return (
@@ -9,7 +10,9 @@ const Home = () => {
             <Header />
             <Body>
                 <Sidebar />
+                <VideoWrapper/>
             </Body>
+            
         </div>
     )
 }
